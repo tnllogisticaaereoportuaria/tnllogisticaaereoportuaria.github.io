@@ -587,7 +587,7 @@ document.addEventListener("DOMContentLoaded", () => {
     animateOnScroll()
   }, 500)
 
-  console.log("LogiTrans Pro - Website loaded successfully! 🚛")
+  console.log("TNL - Website loaded successfully! 🚛")
 })
 
 // ===== MANEJO DE ERRORES =====
