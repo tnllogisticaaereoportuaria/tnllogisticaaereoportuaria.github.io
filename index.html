@@ -8,6 +8,10 @@
     <meta name="description"
         content="Empresa líder en servicios de logística, transporte con temperatura controlada y operaciones aeroportuarias">
 
+    <meta name="keywords"
+        content="aduanas, burocracia, trámites, comercio exterior, importación, exportación, logística, transporte, temperatura controlada, distribución, aduanas, gestión aduanera, servicios aeroportuarios, ecomerce, logística nacional, logística internacional, transporte especializado, servicios de carga, transporte de mercancías, gestión de aduanas, trámites aduaneros, distribución de mercancías, logística integral, servicios logísticos, transporte aéreo, transporte terrestre, transporte de productos farmacéuticos, transporte de alimentos, transporte de mercancías peligrosas, gestión de inventarios, almacenamiento y distribución, logística de eventos, logística para empresas, soluciones logísticas personalizadas, familiar, experiencia, confianza, servicio al cliente, transporte de mercancías, logística de última milla, transporte de productos perecederos, transporte de productos químicos, transporte de maquinaria, transporte de vehículos, logística de cadena de suministro">
+    <meta name="author" content="TNL Servicios y Logística S.L.">
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
@@ -22,9 +26,10 @@
     <!-- Header -->
     <header class="header" id="header">
         <nav class="nav container">
-            <div class="nav__logo">
-                <img src="assets/logo.png" alt="TNL Logo" class="nav__logo-img">
-                <span class="nav__logo-text">TNL</span>
+            <!-- TODO -->
+            <div class="nav__logo" onclick="window.location.href='#top'" style="cursor: pointer;">
+                <span class="nav__logo-text" style="font-size: 2em;">TNL</span>
+                <!-- <img src="assets/logo2.png" class="nav__logo-img"> -->
             </div>
 
             <div class="nav__menu" id="nav-menu">
@@ -63,7 +68,7 @@
             <div class="hero__container container">
                 <div class="hero__content">
                     <h1 class="hero__title">
-                        Soluciones Logísticas <span class="hero__title-accent">Aeroportuarias Integrales</span>
+                        Servicios Y Logísticas <span class="hero__title-accent">Aeroportuarias Integrales</span>
                     </h1>
                     <p class="hero__description">
                         Líderes en transporte especializado, logística nacional y servicios aeroportuarios con más
@@ -79,6 +84,12 @@
                             Contactar
                         </a>
                     </div>
+                </div>
+                <div style="width: 640px; margin: auto; border: 1px solid #ccc; padding: 10px;">
+                    <video width="100%" controls>
+                        <source src="assets/VideoPresentacion.mp4" type="video/mp4">
+                        Tu navegador no soporta el video.
+                    </video>
                 </div>
                 <div class="hero__image">
                     <img src="assets/hero-logistics.jpg" alt="Servicios de Logística" class="hero__img">
@@ -155,7 +166,7 @@
                             garantizando la cadena de frío desde origen hasta destino.
                         </p>
                         <ul class="service__features">
-                            <li><i class="fas fa-check"></i> Monitoreo en tiempo realyy</li>
+                            <li><i class="fas fa-check"></i> Almacenamiento en condiciones controladas</li>
                             <li><i class="fas fa-check"></i> Certificaciones sanitarias</li>
                             <li><i class="fas fa-check"></i> Flota especializada</li>
                         </ul>
@@ -167,7 +178,8 @@
                         </div>
                         <h3 class="service__title">Distribución de Médicamentos para uso Humano</h3>
                         <p class="service__description">
-                            Expertos en la distribución de productos farmacéuticos, con camiones con control de temperatura
+                            Expertos en la distribución de productos farmacéuticos, con camiones con control de
+                            temperatura
                         </p>
                         <ul class="service__features">
                             <li><i class="fas fa-check"></i> Certificación GDP</li>
@@ -223,9 +235,6 @@
                             <li><i class="fas fa-check"></i> Documentación completa</li>
                         </ul>
                     </div>
-
-                    
-
                     <div class="service__card">
                         <div class="service__icon">
                             <i class="fas fa-warehouse"></i>
@@ -362,66 +371,66 @@
                 </div>
 
                 <!-- <div class="contact__content"> -->
-                    <div class="contact__info">
-                        <div class="contact__card">
-                            <div class="contact__icon">
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <div class="contact__details">
-                                <h3 class="contact__title">Teléfono</h3>
-                                <p class="contact__text">+34 917467197</p>
-                                <a href="tel:+34 917467197" class="contact__button">
-                                    <i class="fas fa-phone"></i> Llamar Ahora
-                                </a>
-                            </div>
+                <div class="contact__info">
+                    <div class="contact__card">
+                        <div class="contact__icon">
+                            <i class="fas fa-phone"></i>
                         </div>
-
-                        <div class="contact__card">
-                            <div class="contact__icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="contact__details">
-                                <!-- TODO -->
-                                <h3 class="contact__title">Correo Electrónico</h3>
-                                <p class="contact__text">tnlservicios@tnlservicios.com</p>
-                                <a href="mailto:tnlservicios@tnlservicios.com" class="contact__button">
-                                    <i class="fas fa-envelope"></i> Enviar Email
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="contact__card">
-                            <div class="contact__icon">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
-                            <div class="contact__details">
-                                <h3 class="contact__title">Dirección</h3>
-                                <p class="contact__text">C. Golf, 23 parcela 2.5, Nave 4</p>
-                                <p class="contact__text">Barajas, 28042 Madrid</p>
-                                <p class="contact__text">Terminal Carga</p>
-                                <a href="https://www.google.com/maps/place/Tnl+Servicios+y+log%C3%ADstica+s.l/@40.4515944,-3.5788579,17z/data=!3m1!4b1!4m6!3m5!1s0xd42315633c3acf9:0x31c5a7a9b7629855!8m2!3d40.4515944!4d-3.576283!16s%2Fg%2F11h7jptjws?entry=ttu&g_ep=EgoyMDI1MDcxMy4wIKXMDSoASAFQAw%3D%3D"
-                                    target="_blank" class="contact__button">
-                                    <i class="fas fa-map"></i> Ver en Mapa
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="contact__card">
-                            <div class="contact__icon">
-                                <i class="fas fa-headset"></i>
-                            </div>
-                            <div class="contact__details">
-                                <h3 class="contact__title">Soporte 24/7</h3>
-                                <p class="contact__text">Emergencias y rastreo</p>
-                                <p class="contact__text">+34 610527003</p>
-                                <a href="tel:+34610527003" class="contact__button">
-                                    <i class="fas fa-headset"></i> Soporte
-                                </a>
-                            </div>
+                        <div class="contact__details">
+                            <h3 class="contact__title">Teléfono</h3>
+                            <p class="contact__text">+34 917467197</p>
+                            <a href="tel:+34 917467197" class="contact__button">
+                                <i class="fas fa-phone"></i> Llamar Ahora
+                            </a>
                         </div>
                     </div>
 
-                    <!-- <div class="contact__form-container">
+                    <div class="contact__card">
+                        <div class="contact__icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact__details">
+                            <!-- TODO -->
+                            <h3 class="contact__title">Correo Electrónico</h3>
+                            <p class="contact__text">tnlservicios@tnlservicios.com</p>
+                            <a href="mailto:tnlservicios@tnlservicios.com" class="contact__button">
+                                <i class="fas fa-envelope"></i> Enviar Email
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact__card">
+                        <div class="contact__icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact__details">
+                            <h3 class="contact__title">Dirección</h3>
+                            <p class="contact__text">C. Golf, 23 parcela 2.5, Nave 4</p>
+                            <p class="contact__text">Barajas, 28042 Madrid</p>
+                            <p class="contact__text">Terminal de Carga</p>
+                            <a href="https://www.google.com/maps/place/Tnl+Servicios+y+log%C3%ADstica+s.l/@40.4515944,-3.5788579,17z/data=!3m1!4b1!4m6!3m5!1s0xd42315633c3acf9:0x31c5a7a9b7629855!8m2!3d40.4515944!4d-3.576283!16s%2Fg%2F11h7jptjws?entry=ttu&g_ep=EgoyMDI1MDcxMy4wIKXMDSoASAFQAw%3D%3D"
+                                target="_blank" class="contact__button">
+                                <i class="fas fa-map"></i> Ver en Mapa
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact__card">
+                        <div class="contact__icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <div class="contact__details">
+                            <h3 class="contact__title">Soporte 24/7</h3>
+                            <p class="contact__text">Emergencias y rastreo</p>
+                            <p class="contact__text">+34 610527003</p>
+                            <a href="tel:+34610527003" class="contact__button">
+                                <i class="fas fa-headset"></i> Soporte
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="contact__form-container">
                         <form class="contact__form" id="contact-form">
                             <h3 class="contact__form-title">Solicita una Cotización</h3>
 
@@ -485,8 +494,8 @@
                         en el mercado nacional e internacional.
                     </p>
                     <div class="footer__social">
-                        <a href="https://www.facebook.com/p/Tnl-Servicios-y-Log%C3%ADstica-SL-100057504246809/?locale=es_ES" 
-                        class="footer__social-link" aria-label="Facebook">
+                        <a href="https://www.facebook.com/p/Tnl-Servicios-y-Log%C3%ADstica-SL-100057504246809/?locale=es_ES"
+                            class="footer__social-link" aria-label="Facebook">
                             <i class="fab fa-facebook-f"></i>
                         </a>
                         <a href="#" class="footer__social-link" aria-label="LinkedIn">
